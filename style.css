@@ -6,9 +6,9 @@
 }
 
 body {
+    height: 100%;
     margin: 0;
-    font-family: Arial, sans-serif;
-    text-align: center;
+    padding: 0;
 }
 
 header {
@@ -44,11 +44,11 @@ nav ul li a {
 
 .section {
     margin-top: 100px;  
-    padding: 60px 20px;
+    padding: 0;
     background-color: rgba(218, 222, 173, 0.7);
     max-width: 800px;
     text-align: center;
-height: 800px;
+height: 100%;
 }
 
 .profile-image {
